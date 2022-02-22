@@ -5,29 +5,27 @@
     font-family: sans-serif;
 }
 body{
-    background:url('background.jpg') no-repeat;
+    background:url('https://gcdnb.pbrd.co/images/Vt3N1yHOXLNM.jpg?o=1') no-repeat;
     background-size:cover ;
 }
 .Forgot_Password{
-    width: 360px;
+    width: 400px;
     top: 50%;
     left: 50%;
+    background-color: rgb(245, 225, 188);
     transform: translate(-50%,-50%);
     position: absolute;
     color: rgb(0, 2, 3);
+    height:280px ;
+    margin: auto;
+    border-radius: 3px;
 }
-.Forgot_Password h1{
-    font-size: 38px;
-    text-align: center;
-}
+
 .Forgot_Password p{
     font-size: 15px;
     margin: 15px 0;;
 }
-}
-.button1{
-    width: 320px;
-    height: 35px;
-    /* margin-bottom: 50px; */
-    padding-bottom: 40px;
+h1{
+    text-align: center;
+    padding-top: 15px;
 }
