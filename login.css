@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,58 +5,73 @@
     font-family: sans-serif;
 }
 body{
-    background:url('hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg') no-repeat;
+    background:url('https://gcdnb.pbrd.co/images/Vt3N1yHOXLNM.jpg?o=1') no-repeat;
     background-size:cover ;
 }
-.login_form{
+.sign_up{
     width: 360px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+    height: 620px;
+    margin: auto;
     background-color: rgb(245, 225, 188);
+    border-radius: 3px;
 }
-.login_form h1{
-   font-size: 40px;
-   text-align: center;
-   text-transform: uppercase;
-   margin: 40px 0; 
+h1{
+    text-align: center;
+    padding-top: 15px;
 }
-.login_form p{
-    font-size: 20px;
-    margin: 15px 0 ;
-    padding: 15px 0 0 15px;
-}
-.login_form a{
-    margin: 15px 0 0 105px;
-   padding: 15px 0 0 15px;
-    font-size: 15px;
-}
-.login_form input{
-    font-size: 16px;
-    width: 100%;
-    padding: 15px 10px;
-    border: 0;
-    outline: none;
-    border-radius: 5px;
-}
-.login_form button{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0 0 85px;
-    padding: 10px 15px;
-    width: 50%;
-    border-radius: 5px;
-    border:0;
-    color:rgb(60, 161, 207) ;
- 
-}
-.icon{
-    width: 100%;
-    height:50px;
+h4{
     text-align: center;
 }
-.icon i{
-    width: 20px;
-    height: 50px;
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(60, 161, 207);
+    color: white;
+    font-size: 18px;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+.par{
+   text-align: center;
+   font-size: 15px;
+    margin-top: -10px;
+}
+ a{
+    color:rgb(60, 161, 207) ;
+}
+.login{
+    width: 360px;
+    height:280px ;
+    margin: auto;
+    border-radius: 3px;
+    background-color:rgb(245, 225, 188) ;
+
+}
+.icon{
+    text-align: center;
 }
