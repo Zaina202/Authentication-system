@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Zaina202/Authentication-system#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
   }
 }
