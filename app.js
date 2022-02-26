@@ -1,21 +1,21 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var app = express();
+let express = require('express');
+let bodyParser = require('body-parser');
+let app = express();
 
-var urlencodedParser = bodyParser.urlencoded({ extended: false })
+let urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.set('view engine', 'ejs');
 app.use('/assets', express.static('stuff'));
 
-app.get('/', function (req, res){
+app.get('/server', function (req, res){
     res.render('index');
 });
 
-app.get('/contact', function(req, res){
-    res.render('contact', {qs: req.query});
+app.get('/server', function(req, res){
+    res.render('server', {qs: req.query});
 });
 
-app.post('/contact', urlencodedParser,function(req,res){
+app.post('/server', urlencodedParser,function(req,res){
     console.log(req.body);
     res.render('contact-success',{data: req.body});
 });
