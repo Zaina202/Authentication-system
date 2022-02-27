@@ -18,14 +18,14 @@ connection.connect((err)=>{
         console.log("connected")
     }
 })
-connection.query('CREATE TABLE users(First_NAME VARCHAR(255) NOT NULL,Last_NAME VARCHAR(255) NOT NULL, Email VARCHAR(255)PRIMARY KEY,Password VARCHAR(255) NOT NULL)',(err,rows)=>{
-    if(err){
-               throw err;
-            }else{
-                console.log('data set bois');
-                 console.log(rows);
-            }
-})
+// connection.query('CREATE TABLE users(First_NAME VARCHAR(255) NOT NULL,Last_NAME VARCHAR(255) NOT NULL, Email VARCHAR(255)PRIMARY KEY,Password VARCHAR(255) NOT NULL)',(err,rows)=>{
+//     if(err){
+//                throw err;
+//             }else{
+//                 console.log('data set bois');
+//                  console.log(rows);
+//             }
+// })
 
 const port=process.env.PORT||4000;
 app.listen(port);
